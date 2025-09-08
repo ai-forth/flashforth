@@ -192,7 +192,7 @@ namespace eval serialPort {
     variable stopBits 1; # 1 2
     variable parityAndBits "$parity,$dataBits,$stopBits"
     variable handShake none; # none xonxoff rtscts
-    variable name /dev/ttyACM0
+    variable name /dev/ttyUSB0
     if { [string equal $::tcl_platform(platform) windows] } {
 	set name {\\.\com5}
     }; # end if
