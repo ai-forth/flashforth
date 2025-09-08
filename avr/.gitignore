@@ -1,6 +1,6 @@
 *.bat
-*.eep
-*.hex
+#*.eep
+#*.hex
 *.map
 *.obj
 *.tmp
