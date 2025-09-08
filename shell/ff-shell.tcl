@@ -107,6 +107,8 @@ if { [string equal $::tcl_platform(platform) windows] } {
 # --------------------------------------------------------------
 # A buffer for a line of text and a place to record its history.
 
+tk_setPalette #D3D3D3
+
 set ::textBuffer ""
 
 namespace eval cmdHistory {
